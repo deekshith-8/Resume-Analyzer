@@ -1,2 +1,2 @@
-# Resume-Analyzer
-analyzes resumes and provides AI solutions to it 
+#Resume-Analyzer
+This project was built as a learning exercise to understand how a real-world web application is structured from frontend to backend. It allows users to paste a resume and a job description and receive structured feedback based on how well they align. The focus of this project is on clean data flow, frontend–backend communication, and building a system that can be extended further, rather than on complex logic or polished design.
