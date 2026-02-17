@@ -26,7 +26,8 @@ Tools:
 - GitHub
 
 ##  Repository Structure
-Resume-Analyzer/
-       ├── frontend/
-       ├── backend/
-       └── README.md
+Resume-Analyzer
+   ├── frontend
+   ├── backend
+   └── README.md
+
