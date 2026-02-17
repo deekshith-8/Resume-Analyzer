@@ -27,6 +27,6 @@ Tools:
 
 ##  Repository Structure
 Resume-Analyzer/
-├── frontend/
-├── backend/
-└── README.md
+       ├── frontend/
+       ├── backend/
+       └── README.md
