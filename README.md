@@ -18,6 +18,14 @@ Frontend:
 - CSS
 - JavaScript
 
+##  Application Preview
+
+### Resume Upload Page
+![Dashboard Page](screenshots/dashboard.png)
+
+### Analysis Result Page
+![Result Page](screenshots/result.png)
+
 Backend:
 - Node.js / Python
 
