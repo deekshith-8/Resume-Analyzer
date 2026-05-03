@@ -1,42 +1,43 @@
-#  Resume Analyzer
+# 📄 Resume Analyzer
 
-Resume Analyzer is a web application that analyzes resumes to extract key information and provide insights to help improve job applications. This project demonstrates the use of web technologies and text processing to evaluate resume content efficiently.
+An AI-powered web application that analyzes resumes, extracts key information, and provides actionable improvement insights to help candidates stand out.
 
-##  Project Overview
-Recruiters often review resumes quickly, and automated systems are commonly used to filter candidates. Resume Analyzer helps users improve resume quality by analyzing uploaded resumes and presenting structured results.
+## ✨ Features
+- Upload resume for instant analysis
+- Extracts skills, experience, and key details automatically
+- Provides structured feedback and improvement suggestions
+- Clean, intuitive frontend interface
+- Separate frontend/backend architecture
 
-##  Features
-- Upload resumes for analysis
-- Extract important resume details
-- Identify skills and relevant information
-- Provide resume improvement insights
-- Simple and user-friendly interface
+## 🛠️ Tech Stack
+**Frontend:** HTML, CSS, JavaScript
+**Backend:** Node.js / Python
+**Tools:** Git, GitHub
 
-##  Tech Stack
-Frontend:
-- HTML
-- CSS
-- JavaScript
+## 📸 Screenshots
 
-Backend:
-- Node.js / Python
+### Upload Page
+![Dashboard](screenshots/dashboard.png)
 
-Tools:
-- Git
-- GitHub
+### Analysis Results
+![Results](screenshots/result.png)
 
-##  Repository Structure
-Resume-Analyzer
-   ├── frontend
-   ├── backend
-   |── README.md
+## 🔧 Run Locally
 
-##  Application Preview
+Clone the repo:
+```bash
+git clone https://github.com/deekshith-8/Resume-Analyzer.git
+cd Resume-Analyzer
+```
 
-### Resume Upload Page
-![Dashboard Page](screenshots/dashboard.png)
+Start the backend:
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
 
-### Analysis Result Page
-![Result Page](screenshots/result.png)
+Open `frontend/index.html` in your browser.
 
-
+## 👤 Built by
+**Deekshith Gowda** — [LinkedIn](https://linkedin.com/in/deekshithg1206) · [GitHub](https://github.com/deekshith-8)
