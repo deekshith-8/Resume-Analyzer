@@ -11,7 +11,7 @@ document.getElementById("analyzeBtn").addEventListener("click", async () => {
   output.innerText = "Analyzing with AI...";
 
   try {
-    const response = await fetch("http://localhost:3000/analyze", {
+    const response = await fetch("https://resume-analyzer-backend-p4gz.onrender.com/analyze", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
