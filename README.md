@@ -1,43 +1,45 @@
-# 📄 Resume Analyzer
+# 📄 AI Resume Analyzer
 
-An AI-powered web application that analyzes resumes, extracts key information, and provides actionable improvement insights to help candidates stand out.
+An AI-powered web app that analyzes your resume against a job description and provides structured feedback using LLaMA 3.3.
+
+## 🚀 Live Demo
+👉 [Try it here](https://resume-analyzer-ashy-seven.vercel.app)
 
 ## ✨ Features
-- Upload resume for instant analysis
-- Extracts skills, experience, and key details automatically
-- Provides structured feedback and improvement suggestions
-- Clean, intuitive frontend interface
-- Separate frontend/backend architecture
+- Paste your resume and job description for instant analysis
+- AI-generated match score out of 10
+- Identifies missing skills and strengths
+- Provides 3 specific improvement suggestions
+- Fast responses powered by Groq
 
 ## 🛠️ Tech Stack
-**Frontend:** HTML, CSS, JavaScript
-**Backend:** Node.js / Python
-**Tools:** Git, GitHub
+**Frontend:** HTML, CSS, JavaScript — deployed on Vercel
+**Backend:** Node.js, Express — deployed on Render
+**AI:** Groq API (LLaMA 3.3 70B)
 
-## 📸 Screenshots
-
-### Upload Page
-![Dashboard](screenshots/dashboard.png)
-
-### Analysis Results
-![Results](screenshots/result.png)
+## ⚙️ How It Works
+1. User pastes resume and job description
+2. Frontend sends POST request to Express backend
+3. Backend calls Groq API with structured prompt
+4. LLaMA 3.3 returns match score, missing skills, strengths and suggestions
+5. Results displayed instantly in the UI
 
 ## 🔧 Run Locally
 
-Clone the repo:
 ```bash
 git clone https://github.com/deekshith-8/Resume-Analyzer.git
-cd Resume-Analyzer
+cd Resume-Analyzer/backend
+npm install
 ```
+
+Create a `.env` file in the backend folder:
 
 Start the backend:
 ```bash
-cd backend
-pip install -r requirements.txt
-python app.py
+node server.js
 ```
 
-Open `frontend/index.html` in your browser.
+Open `docs/index.html` in your browser.
 
 ## 👤 Built by
 **Deekshith Gowda** — [LinkedIn](https://linkedin.com/in/deekshithg1206) · [GitHub](https://github.com/deekshith-8)
