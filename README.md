@@ -1,52 +1,71 @@
-# 📄 AI Resume Analyzer
+<div align="center">
+  <h1>AI Resume Analyzer</h1>
+  <p>Paste your resume. Get a match score, missing skills and actionable feedback — instantly.</p>
 
-An AI-powered web app that analyzes your resume against a job description and provides structured feedback using LLaMA 3.3.
+  <img src="https://img.shields.io/badge/Groq-LLaMA 3.3 70B-F55036?style=flat-square" />
+  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=flat-square&logo=node.js" />
+  <img src="https://img.shields.io/badge/Vercel-Frontend-000000?style=flat-square&logo=vercel" />
+  <img src="https://img.shields.io/badge/Render-Backend-46E3B7?style=flat-square" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
 
-## 🚀 Live Demo
-👉 [Try it here](https://resume-analyzer-ashy-seven.vercel.app)
+  <br /><br />
 
-## 📸 Screenshots
+  <a href="https://resume-analyzer-ashy-seven.vercel.app"><strong>→ Live Demo</strong></a>
+</div>
 
-### Upload Page
-![Dashboard](screenshots/dashboard.png)
+---
 
-### Analysis Results
-![Results](screenshots/result.png)
+## Overview
 
-## ✨ Features
-- Paste your resume and job description for instant analysis
-- AI-generated match score out of 10
-- Identifies missing skills and strengths
-- Provides 3 specific improvement suggestions
-- Fast responses powered by Groq
+AI Resume Analyzer compares your resume against a target job description and returns structured, AI-generated feedback. It scores your match out of 10, identifies skill gaps, highlights your strengths, and gives three concrete improvement suggestions — all powered by LLaMA 3.3 70B via Groq.
 
-## 🛠️ Tech Stack
-**Frontend:** HTML, CSS, JavaScript — deployed on Vercel  
-**Backend:** Node.js, Express — deployed on Render  
-**AI:** Groq API (LLaMA 3.3 70B)
+---
 
-## ⚙️ How It Works
-1. User pastes resume and job description
-2. Frontend sends POST request to Express backend
-3. Backend calls Groq API with structured prompt
-4. LLaMA 3.3 returns match score, missing skills, strengths and suggestions
-5. Results displayed instantly in the UI
+## Features
 
-## 🔧 Run Locally
+- Match score out of 10 against any job description
+- Missing skills identified from the JD
+- Strengths surfaced from your resume
+- 3 specific, actionable improvement suggestions
+- Fast responses via Groq API
 
-```bash
-git clone https://github.com/deekshith-8/Resume-Analyzer.git
-cd Resume-Analyzer/backend
-npm install
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js, Express |
+| LLM | Groq — LLaMA 3.3 70B |
+| Frontend Deployment | Vercel |
+| Backend Deployment | Render |
+
+---
+
+## How It Works
+
+```
+User pastes resume + job description
+         ↓
+Frontend sends POST request to Express backend
+         ↓
+Backend constructs structured prompt → calls Groq API
+         ↓
+LLaMA 3.3 returns match score, missing skills,
+strengths and improvement suggestions
+         ↓
+Results rendered instantly in the UI
 ```
 
-Create a `.env` file in the backend folder:
-Start the backend:
-```bash
-node server.js
-```
+---
 
-Open `docs/index.html` in your browser.
+## License
 
-## 👤 Built by
-**Deekshith Gowda** — [LinkedIn](https://linkedin.com/in/deekshithg1206) · [GitHub](https://github.com/deekshith-8)
+MIT — free to use, modify and distribute.
+
+---
+
+<div align="center">
+  <p>Built by <a href="https://linkedin.com/in/deekshithg1206">Deekshith Gowda</a> &nbsp;·&nbsp; <a href="https://github.com/deekshith-8">GitHub</a></p>
+</div>
