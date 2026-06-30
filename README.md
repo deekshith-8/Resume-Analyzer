@@ -62,7 +62,7 @@ Results rendered instantly in the UI
 
 ## License
 
-MIT — free to use, modify and distribute.
+MIT — free to use, modify and distribute
 
 ---
 
