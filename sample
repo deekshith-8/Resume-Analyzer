@@ -1,1 +1,68 @@
+resume: 
 
+Deekshith Gowda
+B.Tech Computer Science Engineering
+Dayananda Sagar University
+
+Email: deekshith@example.com
+Phone: +91-9876543210
+
+SUMMARY
+Computer Science undergraduate with experience in Full Stack Development, Generative AI, and Machine Learning. Passionate about building scalable web applications and AI-powered solutions.
+
+SKILLS
+Programming: Python, JavaScript, Java, SQL
+Frontend: React.js, HTML, CSS, Tailwind CSS
+Backend: FastAPI, Node.js, Express.js
+Database: MongoDB, Firebase
+AI/ML: LangChain, FAISS, Groq API, NLP, RAG
+Tools: Git, GitHub, VS Code, Vercel
+
+PROJECTS
+
+DocMind AI
+- Built an AI-powered document question answering system.
+- Used LangChain, FAISS, Groq Llama 3.3 70B and Streamlit.
+- Implemented Retrieval-Augmented Generation (RAG).
+
+Resume Analyzer
+- Developed an AI application that compares resumes against job descriptions.
+- Built backend using FastAPI.
+- Used Groq API for resume evaluation.
+
+CineMovie
+- Built a React movie search application.
+- Integrated TMDB REST API.
+- Deployed on Vercel.
+
+EDUCATION
+B.Tech Computer Science Engineering
+CGPA: 8.26
+
+
+
+description:
+
+Software Development Intern
+
+We are looking for a Computer Science student with knowledge of:
+
+- Python
+- React.js
+- REST APIs
+- FastAPI
+- JavaScript
+- SQL
+- Git/GitHub
+- Problem-solving skills
+- Good communication
+- Knowledge of AI/ML is a plus
+- Experience with cloud deployment is preferred
+
+Responsibilities:
+
+- Build frontend and backend features
+- Develop REST APIs
+- Work with databases
+- Collaborate with senior developers
+- Debug and optimize applications
